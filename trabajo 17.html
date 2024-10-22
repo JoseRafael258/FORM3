@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        html{
+            background-color: #353535; color: white;
+        }
+        fieldset{
+            background-color: #151515;
+        }
+    </style>
+    <meta charset="UTF-8" />
+    <title>FORM 2 EN HTML</title>
+</head>
+<body>
+    <h1>FORM 2</h1>
+    <form action="paginareal.com" method="post">
+        <fieldset>
+        <legend>Preferencias</legend>
+        <label for="date">Elige una fecha: 
+            <input type="date" name="date">
+        </label>
+        <br> <br>
+        <label for="fichero">Elija un fichero: 
+            <input type="file" name="fichero">
+        </label>
+        <br> <br>
+        <input type="radio"> AMD    <input type="radio"> Intel i5   <input type="radio"> intel i7
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Preferencias</legend>
+        <input type="radio"> Matematicas    <input type="radio"> Historia   <input type="radio"> Geografia  <input type="radio"> Lengua
+        <br><br>
+        <label for="name"> Nombre:
+            <input type="text" name="name"> 
+        </label> <br> <br>
+        <label for="apell"> Apellido:
+            <input type="text" name="apell">
+        </label> <br> <br>
+        <label for="mail"> Correo:
+            <input type="text" name="mail">
+        </label> <br> <br>
+        <label for="color"> Elige un color:
+            <input type="color" name="color">
+        </label> <br> <br>
+        <textarea name="text" id="text">Utiliza este cuadro para escribir</textarea> <br> <br>
+        <label for="date1">
+        <input type="date" name="date1">
+        </label> <br> <br>
+        <select name="lang" id="lang">
+            <option value="langen" selected="select">Inglés</option>
+            <option value="langes">Español</option>
+        </select> <br> <br>
+        <label for="time">Elije una hora: 
+        <input type="time" name="time">
+        </label> <br> <br>
+        <label for="doc">Ingresa un fichero: 
+            <input type="file" name="doc">
+        </label> <br> <br>
+        <input type="checkbox"> Mujer   <input type="checkbox"> Hombre
+    </fieldset>
+    </form>
+    
+</body>
+</html>

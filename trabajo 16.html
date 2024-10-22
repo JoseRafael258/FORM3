@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        body{
+            background-color: #353535;  color: white; text-align: justify;
+        }
+        fieldset{
+            background-color: #151515;
+        }
+        #boton, input, select{
+            background-color: #151515; color: white;
+        }
+    </style>
+    <meta charset="UTF-8" />
+    <title>FORM EN HTML</title>
+</head>
+<body>
+    <form action="nosoyunapaginafalsa.com" method="post"></form>
+    <h1>FORM 1</h1>
+    <fieldset>
+        <legend>Relleno</legend>
+        <input type="radio" name="langen" id="lang"> Inglés <br>
+        <input type="radio" name="langes" id="lang"> Español
+
+    <br> <br>
+    <select name="storage" id="storage">
+        <option value="usb" selected="selected">USB</option>
+        <option value="disco">Disco</option>
+    </select>
+    <br> <br>
+    <label for="nombre">Nombre:
+    <input type="text" name="nombre" id="nombre">
+    </label>
+    <br>
+    <label for="apellido">Apellido:
+        <input type="text" name="apellido" id="apellido">
+    </label>
+    </fieldset>
+    <br><fieldset>
+        <legend>Preferencias</legend>
+        <select name="genero" id=" genero" size="5">
+            <option value="genh">Hombre</option>
+            <option value="genm">Mujer</option>
+        </select> <br> <br>
+        <input type="checkbox" name="genh" id="genh"> Hombre <br>
+        <input type="checkbox" name="genm" id="genm"> Mujer <br> <br>
+        <Label> Fecha:
+            <input type="date" name="fecha" id="fecha">
+        </Label>
+    </fieldset>
+    <br><br><input id="boton" type="submit" value="Enviar">
+</body>
+</html>

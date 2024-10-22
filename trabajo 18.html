@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        html{
+            background-color: #353535; color: white;
+        }
+        fieldset{
+            background-color: #303030; text-align: center; width: 400px; padding: 30px; margin: auto;
+            margin-top: 100px; border-radius: 4px; box-shadow: 7px 13px 37px #000; border-color: #303030;
+        }
+        header, nav{
+            background-color: #151515;
+        }
+        header{
+            text-align: center; padding: 15px; font-size: 24px;
+        }
+        nav ul{
+            list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center;
+        }
+        nav li{
+            padding: 14px 20px;
+        }
+        hr{
+            padding: 0; margin: 0;
+        }
+        .cuadro{
+            width: 400px; background-color: #151515; padding: 10px; margin: auto;
+        }
+    </style>
+    <meta charset="UTF-8" />
+    <title>FORM EN HTML 3</title>
+</head>
+<body>
+    <header>Formulario 3 Registro</header> <hr>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Location</li>
+        </ul>
+    </nav>
+    <form action="paginareal.com" method="post">
+        <fieldset>
+        <input type="text" placeholder="Ingrese su Nombre" maxlength="20" class="cuadro"> <br>
+        <input type="text" placeholder="Ingrese su Apellido" maxlength="30" class="cuadro"> <br>
+        <input type="text" placeholder="Ingrese su correo" maxlength="24" class="cuadro"> <br>
+        <input type="password" placeholder="Ingrese su NIP" maxlength="4" class="cuadro"> <br>
+        <input type="checkbox" id="condiciones">Estoy de acuerdo con los terminos y condiciones <br>
+        <input type="submit" placeholder="Registrar" id="registro"> <br>
+        <p id="sesion">¿Ya tienes cuenta?</p>
+        </fieldset>
+    </form>
+</body>
+</html>
